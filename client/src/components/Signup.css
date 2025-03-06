@@ -1,0 +1,114 @@
+/* Allow scrollbar when content overflows */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
+  overflow: auto; /* Enable scrollbar if needed */
+}
+
+.signup-container {
+  position: relative;
+  min-height: 100vh; /* Allow content to grow */
+  background: linear-gradient(to bottom, #e8f5e9, #a5d6a7);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Stack elements vertically */
+}
+
+.nature-pattern {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://www.transparenttextures.com/patterns/green-dust.png");
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+/* Card styling for the signup form */
+.signup-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  z-index: 2;
+  position: relative;
+}
+
+.signup-title {
+  color: #2e7d32;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Input fields styling */
+.form-control {
+  border: 1px solid #a5d6a7;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 16px;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #388e3c;
+  box-shadow: 0 0 5px rgba(56, 142, 60, 0.5);
+}
+
+/* Button styling */
+.signup-btn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+
+.signup-btn:hover {
+  background-color: #388e3c;
+  cursor: pointer;
+}
+
+/* Tree Image Overlay at Bottom Right */
+.tree-image-overlay {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 500px;
+  height: 500px;
+  background-image: url("C:\Users\AE-09092023\Desktop\Development\Hackathon projects\Final\client\public\tree.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1;
+  pointer-events: none;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .signup-card {
+    width: 90%;
+  }
+
+
+  .tree-image-overlay {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 769px) {
+  .signup-card {
+    width: 400px;
+  }
+}

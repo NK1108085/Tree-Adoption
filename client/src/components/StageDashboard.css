@@ -1,0 +1,70 @@
+/* client/src/components/StageDashboard.css */
+
+.stage-dashboard {
+    background: #f1f8f5;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stage-dashboard h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #2c5828;
+  }
+  
+  .no-plantations-text {
+    font-size: 1.1rem;
+    color: #555;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  .plantation-card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .plantation-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  }
+  
+  .show-img {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .card-body {
+    padding: 1rem 1.5rem;
+  }
+  
+  .card-title {
+    font-size: 1.4rem;
+    color: #2c5828;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-text {
+    font-size: 0.95rem;
+    color: #333;
+    margin-bottom: 0.3rem;
+  }
+  
+  .card-map {
+    border-top: 1px solid #ddd;
+  }
+  
+  .card-footer {
+    background: #f9f9f9;
+    border-top: 1px solid #ddd;
+    padding: 0.75rem;
+    text-align: center;
+  }
+  

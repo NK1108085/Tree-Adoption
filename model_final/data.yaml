@@ -1,0 +1,6 @@
+
+train: C:\Users\mitan\Desktop\newmodel\Train
+val: C:\Users\mitan\Desktop\newmodel\Test
+nc: 3
+names: ['four-to-six', 'ten-to-twelve', 'sixteen-plus']
+    

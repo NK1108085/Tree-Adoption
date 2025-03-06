@@ -1,0 +1,60 @@
+.users-list {
+    width: 100%;
+    padding: 20px;
+    overflow-x: auto;
+  }
+  
+  .users-list h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .users-list table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto;
+  }
+  
+  .users-list th, .users-list td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+  }
+  
+  .users-list th {
+   
+    font-weight: bold;
+    white-space: nowrap;
+  }
+  
+  .users-list td:nth-child(4) {
+    max-width: 300px;
+    word-wrap: break-word;
+  }
+  
+  .users-list ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .users-list li {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  .search-input{
+    margin-left: 540px;
+    height: 29px;
+    width: 200px;
+    border: 1.1px solid black;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .users-list table {
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+  }

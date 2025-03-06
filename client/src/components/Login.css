@@ -1,0 +1,106 @@
+/* Login Container & Background */
+.login-container {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #e8f5e9, #a5d6a7);
+  background-size: cover;
+  padding: 2rem 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.nature-pattern {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://www.transparenttextures.com/patterns/green-dust.png");
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+/* Login Card Styling */
+.login-card {
+  background: #ffffff;
+  width: 35%;
+  border-radius: 15px;
+  border: 1px solid rgba(0, 100, 0, 0.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  transition: transform 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.login-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #ffffff, #ffffff);
+}
+
+.login-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Titles & Text */
+.login-title {
+  color: #4b9644;
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.login-subtitle {
+  color: #4a7746;
+  font-size: 1.1rem;
+}
+
+/* Form Elements */
+.form-control {
+  border: 2px solid #ddd;
+  padding: 0.8rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #47d03a;
+  box-shadow: 0 0 0 0.2rem rgba(44, 88, 40, 0.25);
+}
+
+/* Button Styling */
+.login-btn {
+  background-color: #4d9e46;
+  border: none;
+  padding: 0.8rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  color: #fff;
+}
+
+.login-btn:hover {
+  background-color: #217d1a;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.tree-image-overlay {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 500px;
+  height: 500px;
+  background-image: url("C:\Users\AE-09092023\Desktop\Development\Hackathon projects\Final\client\public\tree.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1;
+  pointer-events: none;
+}

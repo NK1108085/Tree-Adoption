@@ -1,0 +1,45 @@
+/* PlantationForm.css */
+
+.plantation-form-wrapper {
+    background: #f1f8f5;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .plantation-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .coordinates-group {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .form-control {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .btn {
+    font-size: 1rem;
+    padding: 0.75rem;
+    border-radius: 4px;
+  }
+  
+  .map-preview {
+    margin-top: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  

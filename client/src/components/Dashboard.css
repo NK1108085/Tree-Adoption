@@ -1,0 +1,68 @@
+/* client/src/components/Dashboard.css */
+
+.dashboard-container {
+  background: #f1f8f5; /* Soft greenish background */
+  border-radius: 8px;
+  padding: 2rem;
+}
+
+/* Headings */
+.dashboard-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* No Plantations Message */
+.no-plantations-text {
+  font-size: 1.1rem;
+  color: #555;
+  margin-top: 1rem;
+}
+
+/* Plantation Card Styles */
+.plantation-card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: #fff;
+}
+
+.plantation-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.show-img {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.card-body {
+  padding: 1rem 1.5rem;
+}
+
+.card-title {
+  font-size: 1.4rem;
+  color: #2c5828;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #333;
+  margin-bottom: 0.3rem;
+}
+
+.card-map {
+  border-top: 1px solid #ddd;
+}
+
+/* Form Container */
+.form-container {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
